@@ -1,0 +1,33 @@
+# Created by https://www.gitignore.io
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+### Node ###
+# Logs
+logs
+*.log
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+node_modules
+/node_modules/
